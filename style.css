@@ -11,18 +11,15 @@ nav , footer {
   background-color: #2c3e50;
 }
 
-nav > a {
-  text-decoration: none;
-}
-
 .navbar-left > a , .navbar-right > a {
   text-decoration: none;
   color: white;
   margin: 0 30px;
+  font-weight: bold;
 }
 
 .navbar-left > a {
-  font-size: 25px;
+  font-size: 35px;
 }
 
 main , section, footer {
@@ -35,8 +32,12 @@ header , .green {
   padding: 100px 0;
 }
 
+main > div h2 {
+  font-size: 40px;
+}
+
 .green > div p {
-  padding: 25px 0 50px 0;
+  padding: 25px 0 60px 0;
 }
 
 .green > div a {
@@ -48,17 +49,13 @@ header , .green {
   border-radius: 6px;
 }
 
-.portfolio {
-  font-size: 30px;
-}
-
 .picture img {
   width: 100%;
   margin: 20px 0;
 }
 
 .button {
-  padding: 10px 25px;
+  padding: 20px 40px;
   background-color: #18bc9c;
   border-radius: 2px;
   text-decoration: none;
@@ -67,7 +64,9 @@ header , .green {
 
 .send {
   margin-top: 150px;
-  margin-bottom: 80px;
+  height: 150px;
+  width: 100%;
+  line-height: 150px;
 }
 
 footer {
@@ -88,7 +87,6 @@ footer > div p a {
   color: #18bc9c;
   text-decoration: none;
 }
-
 
 .copyright {
   background: black;
