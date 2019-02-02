@@ -10,6 +10,7 @@ nav , .copyright {
 nav {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 
 nav , footer {
@@ -40,6 +41,7 @@ header , .green {
   color: white;
   padding: 100px 0;
 }
+
 
 main > div h2 {
   font-size: 40px;
