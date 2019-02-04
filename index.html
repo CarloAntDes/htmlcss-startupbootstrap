@@ -2,117 +2,114 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
     <title>Esercizio De Santis</title>
   </head>
   <body>
-    <!-- Inizio Navbar -->
+    <!-- Inizio Nav -->
     <nav>
       <div class="container">
         <div class="row">
-          <div class="navbar-left col-md-6">
-            <a href="#">Startp Bootstrap</a>
+          <div class="cds-navbar-left col-xs-4">
+            <a href="#">START BOOTSTRAP</a>
           </div>
-          <div class="navbar-right col-md-6 text-right">
-              <a href="#">Portfolio</a>
-              <a href="#">About</a>
-              <a href="#">Contact</a>
+          <div class="cds-navbar-right col-xs-8 text-right">
+            <ul class="list-inline hidden-xs">
+              <li><a class="active" href="#">Portfolio</a></li>
+              <li><a class="active" href="#">About</a></li>
+              <li><a class="active" href="#">Contact</a></li>
+            </ul>
+            <div class="hamburger-menu visible-xs-block">
+              PROVA PROVA
+            </div>
           </div>
         </div>
       </div>
     </nav>
-    <!-- Fine Navbar -->
-    <!-- Inizio Header -->
-    <header>
+    <!-- Fine Nav  -->
+    <!-- Inizio Section Bootstrap -->
+    <section class="start-bootstrap">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
             <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/profile.png" alt="">
-            <h1>Start Bootstrap</h1>
-            <i class="fas fa-star"></i>
-            <h3>Web Developer - Graphic Artist - User Experience Designer</h3>
+            <h1 class="padt-20">START BOOTSTRAP</h1>
+            <i class="padt-20 fas fa-star"></i>
+            <p class="padt-20">Web Developer - Graphic Artist - User Experience Designer</p>
           </div>
         </div>
       </div>
-    </header>
-    <!-- Fine Header -->
-    <!-- Inizio Main -->
-    <main>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 text-center ">
-            <h2>Portfolio</h2>
-            <i class="fas fa-star"></i>
-          </div>
-        </div>
-        <div class="row picture">
-          <div class="main-left col-md-4">
-            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
-          </div>
-          <div class="main-center col-md-4">
-            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
-          </div>
-          <div class="main-right col-md-4">
-            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
-          </div>
-        </div>
-        <div class="row picture">
-          <div class="main-left col-md-4">
-          <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
-          </div>
-          <div class="main-center col-md-4">
-            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
-          </div>
-          <div class="main-right col-md-4">
-            <img src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
-          </div>
-        </div>
-      </div>
-    </main>
-    <!-- Fine Main -->
-    <!-- Inizio About Section -->
-    <section class="green">
+    </section>
+    <!-- Fine Section Bootstrap -->
+    <!-- Inizio Section Portfolio -->
+    <section class="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
-            <h1>ABOUT</h1>
-            <i class="fas fa-star"></i>
+            <h3>PORTFOLIO</h3>
+            <i class="padt-20 fas fa-star"></i>
           </div>
         </div>
         <div class="row">
-          <div class="col-xs-4 col-xs-offset-2">
-            <p>Freelancer is a free bootstrap theme created by Start Bootstrap.
-              The download includes the complete source files including HTML,
-              CSS, and JavaScript as well as optional LESS stylesheets for
-              easy customization.</p>
+          <div class="col-md-6 col-lg-4 mt-20">
+            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cabin.png" alt="">
           </div>
-          <div class="col-xs-4">
+          <div class="col-md-6 col-lg-4 mt-20">
+            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/cake.png" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4 mt-20">
+            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/circus.png" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4 mt-20">
+            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/game.png" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4 mt-20">
+            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/safe.png" alt="">
+          </div>
+          <div class="col-md-6 col-lg-4 mt-20">
+            <img class="img-responsive" src="https://blackrockdigital.github.io/startbootstrap-freelancer/img/portfolio/submarine.png" alt="">
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Fine Section Portfolio -->
+    <!-- Inizio Section About -->
+    <section class="about">
+      <div class="container">
+        <div class="row text-center">
+          <h2>ABOUT</h2>
+          <i class="padt-20 fas fa-star"></i>
+        </div>
+        <div class="row">
+          <div class="col-md-4 col-md-offset-2 padt-20">
+            <p>Freelancer is a free bootstrap theme created by Start
+              Bootstrap. The download includes the complete source files
+              including HTML, CSS, and JavaScript as well as optional
+              LESS stylesheets for easy customization.</p>
+          </div>
+          <div class="col-md-4 padt-20">
             <p>Whether you're a student looking to showcase your work, a
               professional looking to attract clients, or a graphic artist
               looking to share your projects, this template is the perfect
               starting point!</p>
           </div>
-        </div>
-        <div class="row">
-          <div class="col-xs-12 text-center">
-            <a href="#"><i class="fas fa-download"></i>
-              Download Now
-            </a>
+          <div class="row">
+            <div class="col-xs-12 text-center padt-40">
+              <a class="button" href="#"><i class="fas fa-download"></i> Download Now</a>
+            </div>
           </div>
         </div>
+      </div>
     </section>
-    <!-- Fine About Section -->
-    <!-- Inizio Contact Section -->
-    <section class="contact">
+    <!-- Fine Sezione About -->
+    <section class="contact-me">
       <div class="container">
         <div class="row">
           <div class="col-xs-12 text-center">
             <h1>CONTACT ME</h1>
-            <i class="fas fa-star"></i>
+            <i class="padt-20 fas fa-star"></i>
           </div>
         </div>
         <div class="row">
@@ -126,30 +123,30 @@
             <h3>Message</h3>
             <div class="send">
               <hr>
-              <a href="#" class="button">Send</a>
+              <a class="contact-button" href="#">Button</a>
             </div>
           </div>
         </div>
       </div>
     </section>
-      <!-- Fine Contact Section -->
-      <!-- Inizio Footer -->
+    <!-- Fine sezione About -->
+    <!-- Inizio Footer -->
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-md-4 text-center">
+          <div class="col-md-4 mb-5 mb-lg-0 text-center">
             <h3>LOCATION</h3>
             <p>2215 John Daniel <br> Drive Clark, MO 65243</p>
           </div>
-          <div class="col-md-4 text-center">
-              <h3>AROUND THE WEB </h3>
-              <div class="social">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-google-plus-g"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-                <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                <a href="#"><i class="fas fa-basketball-ball"></i></a>
-              </div>
+          <div class="col-md-4 mb-5 mb-lg-0 text-center">
+            <h3>AROUND THE WEB </h3>
+            <div class="social">
+              <a href="#"><i class="fab fa-facebook-f"></i></a>
+              <a href="#"><i class="fab fa-google-plus-g"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fas fa-basketball-ball"></i></a>
+            </div>
           </div>
           <div class="col-md-4 text-center">
             <h3>ABOUT FREELANCER</h3>
@@ -171,6 +168,5 @@
         </div>
       </div>
     </div>
-    <!-- Fine Copyright -->
   </body>
 </html>
